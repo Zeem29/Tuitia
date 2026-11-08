@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Tuitia is a financial operations platform that matches every university fee payment to the right student." />
+    <meta name="generator" content="Built with founding.dev" />
+    <title>Tuitia — Every naira. Every source. One clear picture.</title>
+    <link rel="icon" type="image/png" href="assets/logo.png" />
+    <link rel="apple-touch-icon" href="assets/logo.png" />
+
+    <!-- Fonts load from Google Fonts when online; the CSS falls back to system fonts offline. -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700&family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=JetBrains+Mono:wght@400;500&display=swap"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/components.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+  </head>
+  <body>
+    <!-- The whole interface is drawn into #root by the JavaScript files below. -->
+    <div id="root"></div>
+    <div id="modal-root"></div>
+    <div id="toast-root" class="toast-root" aria-live="polite"></div>
+    <noscript>Tuitia needs JavaScript to run this demonstration.</noscript>
+
+    <!-- Order matters: each file uses the ones above it. -->
+    <script src="js/data.js"></script>
+    <script src="js/storage.js"></script>
+    <script src="js/students.js"></script>
+    <script src="js/payments.js"></script>
+    <script src="js/reconciliation.js"></script>
+    <script src="js/ui.js"></script>
+    <script src="js/simulate.js"></script>
+    <script src="js/student-view.js"></script>
+    <script src="js/dashboard.js"></script>
+    <script src="js/navigation.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
