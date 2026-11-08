@@ -1,0 +1,3 @@
+# The site's static files live in tuitia/client/public, not at the repo root.
+[build]
+  publish = "tuitia/client/public"
